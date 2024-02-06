@@ -30,7 +30,7 @@ function App() {
 				<>
           <div className='w-1/6 overflow-hidden'>
 						<img
-							src='./public/bear-kiss-bear-kisses.gif'
+							src={'/public/bear-kiss-bear-kisses.gif'}
 							className='object-cover '
 						/>
 
@@ -42,7 +42,7 @@ function App() {
 				<>
 					<div className='w-1/6 overflow-hidden'>
 						<img
-							src='./public/hearts-flowers.gif'
+							src={'/public/hearts-flowers.gif'}
 							className='object-cover '
 						/>
 					</div>

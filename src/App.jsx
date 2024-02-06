@@ -1,5 +1,7 @@
-import { useEffect, useRef, useState } from 'react';
+import { useState } from 'react';
 import './App.css';
+import gif1 from '../public/bear-kiss-bear-kisses.gif'
+import gif2 from '../public/hearts-flowers.gif'
 
 function App() {
 	const [yes, setYes] = useState(false);
@@ -30,7 +32,7 @@ function App() {
 				<>
           <div className='w-1/6 overflow-hidden'>
 						<img
-							src={'/public/bear-kiss-bear-kisses.gif'}
+							src={gif1}
 							className='object-cover '
 						/>
 
@@ -42,7 +44,7 @@ function App() {
 				<>
 					<div className='w-1/6 overflow-hidden'>
 						<img
-							src={'/public/hearts-flowers.gif'}
+							src={gif2}
 							className='object-cover '
 						/>
 					</div>
